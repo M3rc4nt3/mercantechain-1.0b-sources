@@ -18,6 +18,11 @@ These compilation instructions have been tested on Ubuntu 14.04 x64 only.
 
 C++ compilers are memory-hungry, so it is recommended to have at least 1 GB of memory available when compiling MERCANTE. With less memory, compilation may take much longer due to swapfile thrashing.
 
+Digitalocean droplet fix locale 
+nano /etc/environment
+add
+LC_ALL="en_US.UTF-8"
+ctrl+x Y
 
 Linux Build Notes (on Ubuntu 14.04 x64)
 =================
